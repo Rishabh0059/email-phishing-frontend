@@ -70,7 +70,6 @@ export default function Recovery2() {
             <input type="checkbox" checked={isChecked} onChange={handleCheckChange} />
             <p><strong>Show password</strong></p>
           </div>
-          {!isChecked && <p className="text-red-500 text-xs">Please check this box to proceed</p>}
         </div>
 
         <div className="button">

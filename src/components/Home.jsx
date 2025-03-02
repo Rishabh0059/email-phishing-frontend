@@ -44,6 +44,7 @@ return (
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
       >
+        This was a Phishing Mail 
         Stay Aware: Protect Yourself from Phishing Mails
       </motion.h1>
 
