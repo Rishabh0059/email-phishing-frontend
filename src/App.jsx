@@ -11,7 +11,7 @@ import Home from "./components/Home";
 function App() {
 
   return (
-    <Router>
+    <Router basename="/email-phishing-frontend">
     <Routes>
       <Route path="/" element={<Recovery />} />
       <Route path="/recovery2" element={<Recovery2 />} />
