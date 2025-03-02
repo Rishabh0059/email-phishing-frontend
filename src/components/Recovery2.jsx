@@ -78,7 +78,7 @@ export default function Recovery2() {
             onClick={changePassword}
             disabled={!detail.pass || !detail.confirmPass || detail.pass !== detail.confirmPass || !isChecked}
             className={`w-full py-2 rounded-lg font-semibold transition-all 
-              ${!detail.pass || !detail.confirmPass || detail.pass !== detail.confirmPass || !isChecked 
+              ${!detail.pass || !detail.confirmPass || detail.pass !== detail.confirmPass 
                 ? "bg-gray-400 cursor-not-allowed" 
                 : "bg-blue-500 hover:bg-blue-600 text-white"}
             `}
