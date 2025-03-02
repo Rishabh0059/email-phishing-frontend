@@ -27,10 +27,7 @@ export default function Recovery2() {
       alert("Passwords do not match!");
       return;
     }
-    if (!isChecked) {
-      alert("Please check the 'Show password' checkbox to proceed.");
-      return;
-    }
+    
     navigate("/home"); 
   }
 
